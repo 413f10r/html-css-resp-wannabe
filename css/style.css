@@ -47,7 +47,9 @@ img {
 
 /* LAYOUT */
 .container {
+    /* es 1------768px  */
     width: 1140px;
+    /* ----- */
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -111,6 +113,7 @@ img {
 .why-us {
     margin-bottom: 3rem;
 }
+
 .why-us .col-left {
     width: 40%;
 }
