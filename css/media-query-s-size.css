@@ -1,9 +1,4 @@
 @media only screen and (max-width: 480px) {
-    body {
-        font-family: 'Nunito Sans', sans-serif;
-        color: #b8c1ec;
-
-    }
 
     .container {
         width: 100%;
@@ -22,29 +17,33 @@
     .lessons .col {
         width: 100%;
         margin: 20px;
+        padding-bottom: 100px;
+    }
 
-        .steps .col {
-            width: 100%;
-            margin: 15px;
-        }
+    .steps .col {
+        width: 100%;
+        margin: 15px;
+    }
 
-        .why-us .col-left {
-            width: 100%;
-            margin: 15px;
-        }
+    .why-us .col-left {
+        width: 100%;
+        margin: 15px;
+    }
 
-        .why-us .col-right {
-            width: 100%;
-            margin: 25px;
+    .why-us .col-right {
+        width: 100%;
+        margin: 25px;
 
-
-        }
-
-        .why-us {
-            padding: 10%;
-            margin-top: -50px;
-            background-color: rgb(29, 29, 29);
-            height: 100%;
-        }
 
     }
+
+    .why-us {
+        width: 100%;
+        padding: 10%;
+        margin-top: -50px;
+        background-color: rgb(29, 29, 29);
+        margin-bottom: 0;
+
+    }
+
+}
